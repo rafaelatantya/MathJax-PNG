@@ -20,10 +20,10 @@
    Remember that in string, you need to replace `\` with `\\` so it's defined as a backslash
    * pngScale (int) : scale of the png, affecting quality and file size (bigger = bigger file size)
    * pathToFile (str) : The path to where the file you want to create. MUST end in .png
-  ```javascript
-  const mjPng = require("/path/to/mathjax-png");
-  mjPng.makeEquation('equation' , pngScale , "./path/to/file.png");
-  ```
+ ```javascript
+ const mjPng = require("/path/to/mathjax-png");
+ mjPng.makeEquation('equation' , pngScale , "./path/to/file.png");
+ ```
 ### Link to My Socials
 [![alt text][1.1]][1]
 [![alt text][2.1]][2]
